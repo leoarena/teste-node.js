@@ -9,3 +9,8 @@ const { executa, escreve, oculta } = require("./moduloExemplo");
 executa();
 escreve();
 oculta();
+
+const somar = require("./moduloSomar");
+
+let value = somar(10, 2);
+console.log(value);
