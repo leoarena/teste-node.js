@@ -1,4 +1,4 @@
-executa = () => {
+const executa = () => {
   console.log("executando função executa");
 };
 
@@ -6,7 +6,7 @@ function escreve() {
   console.log("executando função escreve");
 }
 
-oculta = () => {
+const oculta = () => {
   console.log("executando função oculta");
 };
 
